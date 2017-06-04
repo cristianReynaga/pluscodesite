@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>+CODE</title>
+
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,700|Source+Sans+Pro:900" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <nav class="navbar menu navbar-static-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand hidden-xs">
+        <img src="../svg/logoHeader.svg" alt="logo pluscode">
+      </a>
+      <button class="pull-left navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar bvioletita"></span>
+        <span class="icon-bar bvioletita"></span>
+        <span class="icon-bar bvioletita"></span>
+      </button>
+      <div class="navbar-collapse collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right noMargin">
+          <li><a href="exhibicion.html">Exhibition</a></li>
+          <li><a href="artistas.html">Artists</a></li>
+          <li><a href="pluscode15.html">Edition 2015</a></li>
+          <li><a href="staff.html">Staff & Sponsors</a></li>
+          <li class="active"><a href="info.html">Visit us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+	<div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="title"> Visit us </div>
+      <div class="subtitle violetita"> HOURS </div>
+      <div class="text14">
+        Friday November 4 - Sunday November 14 2016</br>
+        3pm - 9pm</br>
+        </br>
+        <b>Free admission</b>
+      </div>
+      <div class="space46"></div>
+      <div class="subtitle violetita"> VENUE </div>
+      <div class="text14">
+        Centro Cultural San Martín</br>
+        Room  F</br>
+        1551 Sarmiento Street</br>
+        Buenos Aires, Argentina</br>
+      </div>
+      <div class="space46"></div>
+      <div class="subtitle violetita"> HOW TO GET THERE </div>
+      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAh13KjDn5V1ASHKdOctNSQa6Dm48aBiE8'></script><div style='overflow:hidden;height:360px;width:100%;'><div id='gmap_canvas' style='height:360px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://mapswebsite.net/es'>MapsWebsite.net</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=055b6615910ac3c4ee29123d62847691929c2b99'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-34.605332,-58.38860199999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-34.605332,-58.38860199999999)});infowindow = new google.maps.InfoWindow({content:'<strong> Centro Cultural San Martin</strong><br>Sarmiento 1551<br>C1042ABC  CABA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      <div class="space46"></div>
+
+      <!-- <div class="subtitle violetita"> Apoyan </div>
+      <div class="container">
+        <a href="http://masotros.com/" target="_blank">
+          <img src="../svg/masotros.svg" alt="facebook icon">
+        </a>
+        <a href="http://www.elculturalsanmartin.org/" target="_blank">
+          <img src="../svg/sanmartin.svg" alt="instagram icon">
+        </a>
+        <a href="http://noviembreelectronico.elculturalsanmartin.org/" target="_blank">
+          <img src="../svg/noviembre.svg" alt="twitter icon">
+        </a>
+      </div> 
+      <div class="space46"></div>
+      -->
+
+      <div class="subtitle violetita"> CONTACT </div>
+      <form id="formulario" method="POST">>
+        <div class="row">
+          <div class="form-group col-md-3 ">
+            <input type="text" name="cf_name" required class="form-control control" placeholder="Name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-3 ">
+            <input type="email" name="cf_email" required class="form-control control" placeholder="Email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-6 ">
+            <textarea name="cf_message" required="true" class="form-control control" id="mensaje" rows="8" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <button id="mailSubmit" type="submit" value="Enviar" class="btn btn-primary submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="col-md-12 footerAir"></div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-md-2 col-md-offset-3">
+          <a href="https://www.facebook.com/pluscodefest/" target="_blank">
+            <img src="../svg/facebookIcon.svg" alt="facebook icon" class="footerIcon">
+            Facebook
+          </a>
+        </div>
+
+        <div class="col-xs-4 col-md-2">
+          <a href="https://www.instagram.com/pluscodefest/" target="_blank">
+            <img src="../svg/instagramIcon.svg" alt="instagram icon" class="footerIcon">
+            Instagram
+          </a>
+        </div>
+        <div class="col-xs-4 col-md-2">
+          <a href="https://twitter.com/pluscodefest" target="_blank">
+            <img src="../svg/twitterIcon.svg" alt="twitter icon" class="footerIcon">
+            Twitter
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
